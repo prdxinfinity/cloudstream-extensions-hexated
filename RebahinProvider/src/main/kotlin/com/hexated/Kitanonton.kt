@@ -5,7 +5,7 @@ import com.lagradost.cloudstream3.*
 class Kitanonton : RebahinProvider() {
     override var mainUrl = "http://kitanonton.site"
     override var name = "KitaNonton"
-    override var mainServer = "https://199.87.210.226"
+    override var mainServer = "http://kitanonton.site"
 
     override val mainPage = mainPageOf(
         "$mainUrl/genre/populer/page/" to "Populer Movies",
